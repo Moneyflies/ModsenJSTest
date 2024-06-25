@@ -1,10 +1,18 @@
-import './styles.css'
-import IMAGE from './c06611743 1.png'
+import './styles.css';
+
+import Header from './components/Header/Header';
+import Main from './components/Main/Main';
+import Footer from './components/Footer/Footer';
+
 
 export const App = () => {
-    return <>
-          <div>
-            <h1>sadadasd</h1>
+    return (
+        <div className='app'>
+            <Header />
+            <Main />
+            <Footer />
         </div>
-    </>
-}
+    );
+};
+
+export default App;
