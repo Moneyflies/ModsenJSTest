@@ -1,0 +1,15 @@
+.found {
+    font-family: 'Roboto Regular';
+    font-size: 16px;
+    text-align: center;
+    margin: 10px 0 30px 0;
+}
+
+.all_books {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 0.5fr));
+    grid-gap: 10%;
+    box-sizing: border-box;
+}
